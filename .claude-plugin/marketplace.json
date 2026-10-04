@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-teach-me",
+  "description": "Learn while Claude codes: after a turn that changed code, one question about that exact change appears above the prompt. Scored per concept.",
+  "owner": {
+    "name": "Saksham Arora",
+    "url": "https://saksham.digital"
+  },
+  "plugins": [
+    {
+      "name": "teach-me",
+      "source": "./",
+      "description": "Learn while Claude codes: after a turn that changed code, one question about that exact change appears above the prompt. Scored per concept.",
+      "category": "learning",
+      "tags": [
+        "mods",
+        "learning",
+        "quiz"
+      ]
+    }
+  ]
+}
