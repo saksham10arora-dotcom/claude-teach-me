@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-teach-me",
+  "name": "nerfsaksham-teach-me",
   "description": "Learn while Claude codes: after a turn that changed code, one question about that exact change appears above the prompt. Scored per concept.",
   "owner": {
     "name": "Saksham Arora",

@@ -18,7 +18,7 @@ Built for the way a lot of us code now: the agent writes it, you still have to u
 
 ## Settings
 
-`/plugin configure teach-me@claude-teach-me`: quiz language (Hinglish or English), quiz model (default `haiku`), minutes between questions (default 4, so it never nags).
+`/plugin configure teach-me@nerfsaksham-teach-me`: quiz language (Hinglish or English), quiz model (default `haiku`), minutes between questions (default 4, so it never nags).
 
 ## What it touches
 
@@ -30,7 +30,7 @@ Claude Code **2.1.287 or newer** runs mods out of the box. On 2.1.273 to 2.1.286
 
 ```bash
 claude plugin marketplace add saksham10arora-dotcom/claude-teach-me
-claude plugin install teach-me@claude-teach-me
+claude plugin install teach-me@nerfsaksham-teach-me
 ```
 
 Every option has a default, so the installer's "userConfig options not yet set" note is safe to ignore.
